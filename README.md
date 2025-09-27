@@ -16,8 +16,6 @@ Tienda ficticia con productos de "El Papi" que permite:
 ## 🚀 Demo
 👉 [GitHub Pages](https://TU-USUARIO.github.io/el-papi-store/)  
 
-*(Reemplazá con tu link real después de activar Pages).*
-
 ---
 
 ## 📂 Estructura del proyecto
@@ -30,21 +28,6 @@ el-papi-store/
 - **styles.css** → estilos con grid/flex, layout responsive.  
 - **script.js** → toda la lógica JS (DOM, eventos, storage).  
 
----
-
-## 🖼 Screenshots
-### Catálogo
-![screenshot catálogo](https://via.placeholder.com/800x400?text=Catalogo)
-
-### Carrito
-![screenshot carrito](https://via.placeholder.com/800x400?text=Carrito)
-
-### Formulario + Restaurar
-![screenshot agregar](https://via.placeholder.com/800x400?text=Agregar+producto)
-
-*(Podés reemplazar las imágenes con capturas reales de tu proyecto).*
-
----
 
 ## ⚙️ Cómo usar
 1. Abrir el proyecto en el navegador (`index.html`).  
