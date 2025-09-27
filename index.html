@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>El Papi Store — Entrega Final</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <h1>El Papi Store</h1>
+    <div class="header-actions">
+      <span id="badge">🛒 0</span>
+      <button id="btnVaciar">Vaciar carrito</button>
+      <button id="btnRestoreCatalog" class="secondary">Restaurar catálogo</button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Filtros / Buscador -->
+    <section class="filtros">
+      <form id="formFiltros">
+        <input id="buscador" name="q" type="search" placeholder="Buscar producto..." />
+        <select id="categoria" name="cat">
+          <option value="">Todas las categorías</option>
+        </select>
+        <button type="submit">Filtrar</button>
+        <button type="button" id="btnReset">Limpiar</button>
+      </form>
+    </section>
+
+    <!-- Catálogo -->
+    <section>
+      <h2>Productos</h2>
+      <div id="cards-container"></div>
+    </section>
+
+    <!-- Carrito -->
+    <aside>
+      <h2>Carrito</h2>
+      <ul id="carrito-lista"></ul>
+      <p id="carrito-total">Total: $0</p>
+      <button id="btnComprar">Comprar</button>
+    </aside>
+
+    <!-- Agregar unitario -->
+    <section class="agregar">
+      <h2>Agregar producto</h2>
+      <form id="formAgregar">
+        <input id="addNombre" name="nombre" placeholder="Nombre" required />
+        <input id="addPrecio" name="precio" type="number" min="1" placeholder="Precio ARS" required />
+        <input id="addCategoria" name="categoria" placeholder="Categoría (ej. hardware, merch)" required />
+        <input id="addImagen" name="imagen" placeholder="URL de imagen (opcional)" />
+        <button type="submit">Sumar al catálogo</button>
+      </form>
+      <small>Se guarda en tu navegador. Al refrescar, queda. Si querés volver al catálogo original, usá “Restaurar catálogo”.</small>
+    </section>
+  </main>
+</body>
+</html>
