@@ -14,7 +14,7 @@ Tienda ficticia con productos de "El Papi" que permite:
 ---
 
 ## 🚀 Demo
-👉 [GitHub Pages]([https://elpapiiiiii.github.io/el-papi-store/])  
+👉 [GitHub Page](https://elpapiiiiii.github.io/el-papi-store/)  
 
 ---
 
